@@ -1,0 +1,74 @@
+﻿生成启动时间为 2013/11/2 22:06:56。
+     1>项目“E:\VS_file\DADpast\DADpast\DADpast.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\DADpast.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing dadpast.h...
+       ClCompile:
+         D:\VS2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt4.8.2\include /I.\GeneratedFiles\Debug /ID:\OpenCV\opencv2.4.4\build\include /ID:\OpenCV\opencv2.4.4\build\include\opencv /ID:\OpenCV\opencv2.4.4\build\include\opencv2 /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_dadpast.cpp dadpast.cpp main.cpp
+         moc_dadpast.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>e:\vs_file\dadpast\dadpast\dadGraph.h(192): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\vs_file\dadpast\dadpast\dadGraph.h(184) : 忽略“i”的定义
+                 e:\vs_file\dadpast\dadpast\dadGraph.h(182) : 使用“i”的定义
+         dadpast.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>e:\vs_file\dadpast\dadpast\dadGraph.h(192): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\vs_file\dadpast\dadpast\dadGraph.h(184) : 忽略“i”的定义
+                 e:\vs_file\dadpast\dadpast\dadGraph.h(182) : 使用“i”的定义
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+         main.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>e:\vs_file\dadpast\dadpast\dadGraph.h(192): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\vs_file\dadpast\dadpast\dadGraph.h(184) : 忽略“i”的定义
+                 e:\vs_file\dadpast\dadpast\dadGraph.h(182) : 使用“i”的定义
+         正在生成代码...
+     1>e:\vs_file\dadpast\dadpast\myvector_implenentation.h(24): warning C4715: “myVector<GNode *>::operator[]”: 不是所有的控件路径都返回值
+         所有输出均为最新。
+       Link:
+         D:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS_file\DADpast\Win32\Debug\\DADpast.exe" /NOLOGO /LIBPATH:D:\Qt4.8.2\lib qtmaind.lib qtmaind.lib QtCore4.lib QtGui4.lib opencv_calib3d244.lib opencv_contrib244.lib opencv_core244.lib opencv_features2d244.lib opencv_flann244.lib opencv_gpu244.lib opencv_highgui244.lib opencv_imgproc244.lib opencv_legacy244.lib opencv_ml244.lib opencv_nonfree244.lib opencv_objdetect244.lib opencv_photo244.lib opencv_stitching244.lib opencv_ts244.lib opencv_video244.lib opencv_videostab244.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DADpast.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS_file\DADpast\Win32\Debug\DADpast.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS_file\DADpast\Win32\Debug\DADpast.lib" /MACHINE:X86 Debug\dadpast.obj
+         Debug\moc_dadpast.obj
+         Debug\moc_imageblending.obj
+         Debug\moc_Screen.obj
+         Debug\qrc_dadpast.obj
+         Debug\imageblending.obj
+         Debug\IplImageOperation.obj
+         Debug\main.obj
+         Debug\MVCoordinate.obj
+         Debug\triangle.obj
+         Debug\triangulate.obj
+         Debug\Vector3f.obj
+         LINK : 没有找到 E:\VS_file\DADpast\Win32\Debug\\DADpast.exe 或上一个增量链接没有生成它；正在执行完全链接
+         DADpast.vcxproj -> E:\VS_file\DADpast\Win32\Debug\DADpast.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VS_file\DADpast\Win32\Debug\\DADpast.exe;#1" /manifest Debug\DADpast.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\DADpast.unsuccessfulbuild”。
+         正在对“Debug\DADpast.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VS_file\DADpast\DADpast\DADpast.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.66
