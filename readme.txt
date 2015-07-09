@@ -1,0 +1,1 @@
+This is an implementation of the paper "Drag-and-Drop pasting" which mainly deal with the auto optimation of the boundary for Poisson image blending. The technique is based on the shortest closed-path algorithm
